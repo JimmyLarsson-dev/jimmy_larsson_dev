@@ -1,0 +1,19 @@
+.headerContainer {
+    display: flex;
+    height: 100%;
+    background-color: var(--headerLeftBackground);
+}
+
+.headerLeftSide {
+    width: 90%;
+}
+
+.headerRightSide {
+    width: 10%;
+    height: 100%;
+}
+
+.headerContactButton {
+    background-color: #416E87;
+    height: 100%;
+}

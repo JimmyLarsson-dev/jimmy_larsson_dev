@@ -1,0 +1,14 @@
+
+.appContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftContainer{
+    width: 5vw;
+    height: 98vh;
+}
+
+.startDiv {
+    width: 95vw;
+}

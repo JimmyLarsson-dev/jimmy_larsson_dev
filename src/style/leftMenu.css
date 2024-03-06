@@ -1,0 +1,8 @@
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    background-color: var(--headerLeftBackground);
+    border-right: #4b8570 1px solid;
+}
