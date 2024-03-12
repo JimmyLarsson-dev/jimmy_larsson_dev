@@ -6,3 +6,23 @@
     background-color: var(--headerLeftBackground);
     border-right: #4b8570 1px solid;
 }
+
+.phoneImage {
+    width: var(--image-size-contactImages);
+    height: var(--image-size-contactImages);
+}
+
+.emailImage {
+    width: var(--image-size-contactImages);
+    height: var(--image-size-contactImages);
+}
+
+
+
+.linkedinImage {
+    width: var(--image-size-contactImages);
+    height: var(--image-size-contactImages);
+}
+
+
+

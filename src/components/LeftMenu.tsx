@@ -1,14 +1,22 @@
 import "../style/leftMenu.css";
-import { projectColors } from "../values/projectColors";
+import linkedin from "../assets/images/LI-In-Bug.png"
+import mail from "../assets/images/mail.png"
+import phone from "../assets/images/phone.png"
 
-Object.entries(projectColors).forEach(([key, value]) => {
-  document.documentElement.style.setProperty(`--${key}`, `#${value}`);
-});
 
 export default function LeftMenu() {
-  return (
-    <div className="leftContainer">
-      <p>left</p>
-    </div>
-  );
+    return (
+        <>
+            <div>
+                <img className="phoneImage" src={phone} alt="Phone"></img>
+            </div>
+            <div>
+                <img className="emailImage" src={mail} alt="Email"></img>
+            </div>
+            <div>
+                <img className="linkedinImage" src={linkedin} alt="Linkedin"></img>
+            </div>
+
+        </>
+    );
 }

@@ -5,7 +5,14 @@
 }
 
 .headerLeftSide {
+    display: flex;
+    padding-left: 2rem;
     width: 90%;
+    font-family: var(--font-fontFamily), var(--font-fontStyle);
+    font-size: var(--font-size-headLineLarge);
+    color: var(--headerText);
+    align-items: center;
+
 }
 
 .headerRightSide {
@@ -14,6 +21,15 @@
 }
 
 .headerContactButton {
-    background-color: #416E87;
+    display: flex;
+    align-self: center;
+    justify-content: center;
     height: 100%;
+    margin-bottom: 5%;
+    border: black 2px solid;
+    align-items: center;
+    background-color: #416E87;
+    font-size: 3rem;
+    font-family: var(--font-fontFamily), var(--font-fontStyle);
+    color: var(--buttonText);
 }
