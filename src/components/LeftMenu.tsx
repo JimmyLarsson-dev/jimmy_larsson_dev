@@ -4,19 +4,24 @@ import mail from "../assets/images/mail.png"
 import phone from "../assets/images/phone.png"
 
 
+const clickedPhoneButton = () => {
+    
+}
+
+
 export default function LeftMenu() {
     return (
-        <>
-            <div>
+        <div className="leftContactOptionsContainer">
+            <div className="phoneContainer">
                 <img className="phoneImage" src={phone} alt="Phone"></img>
             </div>
-            <div>
+            <div className="emailContainer">
                 <img className="emailImage" src={mail} alt="Email"></img>
             </div>
-            <div>
+            <div className="linkedinContainer">
                 <img className="linkedinImage" src={linkedin} alt="Linkedin"></img>
             </div>
 
-        </>
+        </div>
     );
 }

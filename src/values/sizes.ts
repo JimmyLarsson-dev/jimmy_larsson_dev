@@ -1,4 +1,6 @@
 
-export const imagesSizes = {
-    contactImages: 80
+export const sizes = {
+    contactImages: 80,
 }
+
+

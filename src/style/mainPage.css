@@ -1,0 +1,39 @@
+
+.mainPageContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.mainPageLeftSide {
+    width: 65%;
+    height: 100%;
+}
+
+.mainPageRightSide {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    width: 35%;
+    height: 100%;
+    border-left: #0d211222 solid 1px;
+}
+
+#image {
+
+    width: 130px;
+    height: 130px;
+}
+#javaImage {
+    padding-top: 0.7rem;
+    width: 150px;
+    height: 150px;
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

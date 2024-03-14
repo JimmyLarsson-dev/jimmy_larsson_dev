@@ -5,6 +5,20 @@
     width: 15vw;
     background-color: var(--headerLeftBackground);
     border-right: #4b8570 1px solid;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.leftContactOptionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    border: solid #0d2112 2px;
+    border-radius: 1rem;
+    padding: 0.8rem;
+
 }
 
 .phoneImage {
@@ -12,16 +26,28 @@
     height: var(--image-size-contactImages);
 }
 
+.phoneContainer {
+    margin-bottom: 1.2rem;
+}
+
 .emailImage {
     width: var(--image-size-contactImages);
     height: var(--image-size-contactImages);
 }
 
+.emailContainer {
+    margin-bottom: 1.2rem;
 
+}
 
 .linkedinImage {
     width: var(--image-size-contactImages);
     height: var(--image-size-contactImages);
+}
+
+.linkedinContainer {
+    margin-bottom: 1.2rem;
+
 }
 
 
