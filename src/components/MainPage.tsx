@@ -8,6 +8,8 @@ import postgresBW from "../assets/images/PostgreSQL_logo_bw.png"
 import springbootBW from "../assets/images/springBoot_bw.png"
 import gitBW from "../assets/images/Git_icon_bw.png"
 import scrumBW from "../assets/images/scrum_bw.png"
+import CarouselWrapper from "./CarouselWrapper";
+import LeftSideTopInfo from "./LeftSideTopInfo";
 
 export default function MainPage() {
 
@@ -15,7 +17,8 @@ export default function MainPage() {
   return (
       <div className="mainPageContainer">
         <div className="mainPageLeftSide">
-          <p>left side</p>
+          <LeftSideTopInfo/>
+          <CarouselWrapper/>
         </div>
         <div className="mainPageRightSide">
           <div className="javaContainer" id="imageContainer">

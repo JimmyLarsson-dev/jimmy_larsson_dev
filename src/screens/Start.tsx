@@ -4,6 +4,7 @@ import "../style/start.css";
 import {projectColors} from "../values/projectColors";
 import {projectFont, projectFontSize} from "../values/fonts";
 import {sizes} from "../values/sizes";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 Object.entries(projectColors).forEach(([key, value]) => {
     document.documentElement.style.setProperty(`--${key}`, `#${value}`);
