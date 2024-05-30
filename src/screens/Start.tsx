@@ -5,6 +5,7 @@ import {projectColors} from "../values/projectColors";
 import {projectFont, projectFontSize} from "../values/fonts";
 import {sizes} from "../values/sizes";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LeftMenu from "../components/LeftMenu";
 
 Object.entries(projectColors).forEach(([key, value]) => {
     document.documentElement.style.setProperty(`--${key}`, `#${value}`);
@@ -26,9 +27,10 @@ Object.entries(sizes).forEach(([key, value]) => {
 export default function Start() {
   return (
     <div className="startContainer">
-      <div className="headerContainer">
-        <Header />
-      </div>
+        <div className="leftContainer">
+            <LeftMenu/>
+        </div>
+
       <div className="mainContainer">
         <MainPage />
       </div>

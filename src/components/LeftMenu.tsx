@@ -4,11 +4,6 @@ import mail from "../assets/images/mail.png"
 import phone from "../assets/images/phone.png"
 
 
-const clickedPhoneButton = () => {
-    
-}
-
-
 export default function LeftMenu() {
     return (
         <div className="leftContactOptionsContainer">

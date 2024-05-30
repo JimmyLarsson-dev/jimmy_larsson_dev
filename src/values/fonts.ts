@@ -5,7 +5,8 @@ export const projectFont = {
 }
 
 export const projectFontSize = {
-    headLineLarge: 3,
+
+    headLineLarge: 5,
     headLineMedium: 2,
     headLineSmall: 1,
     normalText: 0.5,

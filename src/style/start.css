@@ -1,17 +1,11 @@
 
 .startContainer {
     display: flex;
-    flex-direction: column;
-}
-
-.headerContainer {
-    display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 9vh;
 }
 
 .mainContainer {
-    height: 89vh;
+    /*height: 100vh;*/
+    width: 100%;
     background-color: var(--main);
 }

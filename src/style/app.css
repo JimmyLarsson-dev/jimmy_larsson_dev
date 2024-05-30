@@ -2,14 +2,10 @@
 .appContainer {
     display: flex;
     flex-direction: row;
-}
-
-.leftContainer{
-    width: 5vw;
-    height: 98vh;
-
+    /*height: 100%;*/
 }
 
 .startDiv {
     width: 95vw;
+    /*height: 100vh;*/
 }

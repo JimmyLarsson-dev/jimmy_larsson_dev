@@ -2,19 +2,23 @@
 .leftContainer {
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    /*width: 15vw;*/
     background-color: var(--headerLeftBackground);
     border-right: #4b8570 1px solid;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     padding-bottom: 2rem;
+    /*width: 5vw;*/
+    /*height: 100%;*/
 }
 
 .leftContactOptionsContainer {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
     border: solid #0d2112 2px;
     border-radius: 1rem;
     padding: 0.8rem;

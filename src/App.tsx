@@ -3,15 +3,9 @@ import LeftMenu from "./components/LeftMenu";
 import "./style/app.css";
 
 function App() {
-  return (
-    <div className="appContainer">
-      <div className="leftContainer">
-        <LeftMenu />
-      </div>
-      <div className="startDiv">
-        <Start />
-      </div>
-    </div>
-  );
+    return (
+        <Start/>
+    );
 }
+
 export default App;
