@@ -8,6 +8,7 @@
 .mainPageTop {
     /*display: grid;*/
     /*grid-template-rows: 1fr 1fr;*/
+    margin-bottom: 5rem;
 }
 
 .mainPageBottom {
@@ -82,7 +83,6 @@
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    /*padding: 8rem;*/
     background-color: var(--main);
     justify-items: center;
 }
@@ -96,13 +96,15 @@
     border: #3a3a3a solid 4px;
     height: 516px;
     width: 684px;
+    background-color: rgba(255, 255, 255);
+    color: black;
+    cursor: pointer;
 }
 
 .cardImage{
-    /*border: #3a3a3a solid 4px;*/
     filter: blur(3px);
-    height: 512px;
-    width: 680px;
+    height: 100%;
+    width: 100%;
     justify-content: center;
 
 }
@@ -110,11 +112,20 @@
 .aboutCardHeadline {
     font-size: var(--font-size-headLineMedium);
     font-family: var(--font-fontFamily), var(--font-fontStyle);
-    color: #626262;
-    ;
+    color: #000000;
 }
 
 .aboutCardText {
     filter: blur(2px);
+}
+
+.cardText {
+    position: absolute;
+    align-self: center;
+    font-size: var(--font-size-headLineMedium);
+}
+
+#projectsText {
+    margin-bottom: 3rem;
 }
 

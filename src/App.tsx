@@ -1,10 +1,16 @@
 import Start from "./screens/Start";
-import LeftMenu from "./components/LeftMenu";
 import "./style/app.css";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Cv from "./components/Cv";
 
 function App() {
     return (
-        <Start/>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Start/>} />
+                <Route path="/cv" element={<Cv/>} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 

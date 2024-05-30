@@ -1,16 +1,28 @@
 import cv from '../assets/images/cvLinkImage.png'
 import github from '../assets/images/githubLinkImage.png'
 import projects from '../assets/images/projectsLinkImage.png'
+import { ExternalLink } from 'react-external-link';
+import {useNavigate} from "react-router-dom";
 
 export default function MainPageMiddle() {
+
+    const goToCv = useNavigate()
+
+
+    const clickedCV = () => {
+        goToCv("/cv")
+    }
+
     return(
         <div className="middleContainer">
-            <div className="middleCard" id="githubContainer">
+            <div className="middleCard" id="githubContainer" onClick={clickedCV}>
                 <img src={cv} className="cardImage"/>
+                <div className="cardText">Check out my CV</div>
             </div>
-            <div className="middleCard" id="cvContainer">
+            <ExternalLink href={"https://github.com/JimmyLarsson-dev/"} className="middleCard" id="githubContainer">
                 <img src={github} className="cardImage"/>
-            </div>
+                <div className="cardText">Visit my github</div>
+            </ExternalLink>
             <div className="middleCard" id="aboutContainer">
                 {/*<img src={cv} className="cardImage"/>*/}
                 <p className="aboutCardHeadline">About me</p>
@@ -18,6 +30,7 @@ export default function MainPageMiddle() {
             </div>
             <div className="middleCard" id="projectsContainer">
                 <img src={projects} className="cardImage"/>
+                <div className="cardText" id="projectsText">Take a look at some of my projects</div>
             </div>
         </div>
     )
